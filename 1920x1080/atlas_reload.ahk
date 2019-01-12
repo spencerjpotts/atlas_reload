@@ -36,7 +36,7 @@ F5::
 
   ; Check if image exists, if it doesn't close loop and return for script shutdown.
   ; ;
-  imagePattern = %A_ScriptDir%\images_1920x1080\pattern1080p.png
+  imagePattern = %A_ScriptDir%\asset\pattern1080p.png
   IfNotExist, %imagePattern%
     debuglog("[!] Image file doesn't exist. Ensure that the correct image/icon exits in the correct directory.")
 
